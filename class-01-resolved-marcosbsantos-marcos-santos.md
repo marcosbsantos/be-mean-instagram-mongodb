@@ -1,7 +1,7 @@
 # MongoDB - Aula 01 - Exercício
 autor: MARCOS SANTOS
 
-## Importando os restaurantes
+## Importando os restaurantes 
 
     ```
     mongoimport --db be-mean --collection restaurantes --drop --file /home/marcos/Documentos/bemean/mongodb/restaurantes.json
@@ -12,7 +12,7 @@ autor: MARCOS SANTOS
 
     ```
 
-## Contando os restaurantes
+### Contando os restaurantes
 
     ```
     > db.restaurantes.find({}).count()
